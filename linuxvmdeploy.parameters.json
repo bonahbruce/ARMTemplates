@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "projectName": {
+            "value": "webapikba"
+        },
+        "location": {
+            "value": "koreacentral"
+        },
+        "adminUsername": {
+            "value": "tony"
+        },
+        "adminPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdgjiLwF6CI58Hl8WOaM+rtNARiw1WIAUj8Xflt0+YvQRko88HpP9/JiDFl9DTyYBJES8pqr+Hgy69hmkm4ZhF+k0GvJYp14lGkHPMdrhuzc9Og/+0Cxzs73/OHP52zBOptvzeBPxfTdcAqsmwWRmFpmWVkS4nIAnxlJcaaqabAkJqke2mYtg7Sv79Po5kqPhmYhOZQmMi1QrWZHWB0OFYlC08S2U6/UR19//7MYTZVLPiNjaDzfo/v2cIxUXMWauMptt8YSSSFIxnTmsQQKA6D6yltJDvE0rzoTZM53lIJljH6dP79nVKKOWt8AoqVRMhgJ5aHvVWQZ4N142kHaof skillsupport@SYDFEB14"
+        },
+        "vmSize": {
+            "value": "Standard_DS1_v2"
+        }
+    }
+}
